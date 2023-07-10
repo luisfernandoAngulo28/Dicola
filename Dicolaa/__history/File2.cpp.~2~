@@ -1,0 +1,25 @@
+#include<iostream>
+#include "UDicolaV2.h"
+using namespace std;
+int main(){
+	DicolaV2* C=new DicolaV2();
+	C->poner(23);
+		cout<<C->to_str()<<endl;
+	C->poner_frente(2);
+		cout<<C->to_str()<<endl;
+
+	C->poner_frente(3);
+		cout<<C->to_str()<<endl;
+	C->poner_frente(4);
+		cout<<C->to_str()<<endl;
+	C->poner_frente(7);
+
+
+	cout<<C->to_str()<<endl;
+	//<<7,4,3,2<<
+	system("pause");
+	return 0;
+
+}
+
+
